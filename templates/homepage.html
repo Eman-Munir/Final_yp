@@ -1841,20 +1841,20 @@ header {
                 <div class="footer-column">
                     <h4>Prompts</h4>
                     <ul>
-                        <li><a href="main_prompt">Main</a></li>
-                        <li><a href="Prompt.html">Explanatory</a></li>
-                        <li><a href="Open_AI_Prompt.html">Coding</a></li>
-                        <li><a href="CV_Based.html">CV Based</a></li>
+                        <li><a href="{% url 'main_prompt' %}">Main</a></li>
+                        <li><a href="{% url 'prompt' %}">Explanatory</a></li>
+                        <li><a href="{% url 'open_ai_prompt' %}">Coding</a></li>
+                        <li><a href="{% url 'cv_based' %}">CV Based</a></li>
 
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Resources</h4>
                     <ul>
-                        <li><a href="About Us.html">About Us</a></li>
-                        <li><a href="homepage.html">Home</a></li>
-                        <li><a href="index.html">landing Page</a></li>
-                        <li><a href="Contact.html">Contact Us</a></li>
+                        <li><a href="{% url 'about' %}">About Us</a></li>
+                        <li><a href="{% url 'homepage' %}">Home</a></li>
+                        <li><a href="{% url 'index' %}">landing Page</a></li>
+                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
              
                     </ul>
                 </div>
